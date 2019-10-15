@@ -9,5 +9,5 @@ WORKDIR /Dog-Breed-Classification-DRF-API
 RUN pip install -r requirements.txt
 RUN chmod +x startServer.sh
 RUN chmod 777 startServer.sh
-EXPOSE 80
+EXPOSE 8000
 CMD ["./startServer.sh"]
